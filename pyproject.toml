@@ -1,0 +1,26 @@
+[project]
+name = "django-surrealdb-backend"
+version = "0.1.0"
+description = "Django 6 SurrealDB database backend (standalone)"
+authors = [ { name = "Your Name" } ]
+readme = "README.md"
+requires-python = ">=3.11"
+keywords = ["django", "surrealdb", "database", "backend"]
+license = { text = "MIT" }
+classifiers = [
+  "Framework :: Django",
+  "Framework :: Django :: 6",
+  "Programming Language :: Python",
+  "Programming Language :: Python :: 3",
+]
+dependencies = [
+  "Django>=6.0,<7.0",
+  "surrealdb>=0.3.0",  # bitte ggf. an eure Version anpassen
+]
+
+[project.urls]
+Homepage = "https://example.com/"
+
+[tool.setuptools]
+package-dir = {"" = "src"}
+packages = ["SRBackend", "SRBackend.base", "SRBackend.management", "SRBackend.management.commands"]
