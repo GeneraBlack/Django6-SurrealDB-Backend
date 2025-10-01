@@ -1,7 +1,7 @@
 [project]
 name = "django-surrealdb-backend"
-version = "0.1.0"
-description = "Django 6 SurrealDB database backend (standalone)"
+version = "0.2.0"
+description = "Django 6 SurrealDB database backend with metrics middleware and pragmatic ORM support"
 authors = [ { name = "Your Name" } ]
 readme = "README.md"
 requires-python = ">=3.11"

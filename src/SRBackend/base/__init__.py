@@ -1,4 +1,4 @@
-"""Django-Datenbank-Backend für SurrealDB (Standalone).
+"""Django-Datenbank-Backend für SurrealDB.
 
 Dieses Paket stellt die Klasse `DatabaseWrapper` auf Modulebene bereit,
 damit Django sie unter ENGINE = 'SRBackend.base' finden kann.
